@@ -1,0 +1,172 @@
+body {
+    font-family: Barlow-Regular, Arial, sans-serif;
+    background-color: #edf4fe;
+}
+
+.main-wrapper {
+    display: flex;
+    max-width: 1440px;
+    min-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    transition-delay: 1s;
+    flex-direction: row;
+}
+
+.left-side {
+    display: flex;
+    width: 52%;
+    height: 1000px;
+}
+
+.promo {
+    display: flex;
+    background-image: url("../img/bg.jpg");
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: 1000px;
+    background-color: white;
+}
+
+.logo {
+    display: block;
+    width: 124px;
+    height: 26px;
+    margin-left: 54px;
+    margin-top: 48px;
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.register_form {
+    box-sizing: border-box;
+    padding: 60px 50px 50px;
+}
+
+.flex_block {
+    display: flex;
+    width: 100%;
+}
+
+.slogan {
+    padding: 15px 0;
+    font-size: 1.6em;
+}
+
+.slogan-subtext {
+    margin: 7px 0;
+}
+
+.register_form-social-buttons {
+    padding: 25px 0;
+    justify-content: space-between;
+}
+
+.social_button{
+    width: 46%;
+    height: 40px;
+    border-radius: 0;
+    border: 0;
+    color: white;
+    margin: 15px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.social_button-facebook {
+    background-color: #255b9b;
+}
+
+.social_button-linkedin {
+    background-color: #0077b6;
+}
+
+.divider_block {
+    padding: 15px 0;
+    justify-content: center;
+}
+
+.divider-or {
+    display: flex;
+    font-size: 0.7em;
+}
+
+.divider-or:before {
+    display: inline-block;
+    height: 1px;
+    width: 120px;
+    background-color: lightgray;
+    margin: 6px 10px;
+    content: '';
+}
+
+.divider-or:after {
+    display: inline-block;
+    height: 1px;
+    width: 120px;
+    background-color: lightgray;
+    margin: 6px 10px;
+    content: '';
+}
+
+.register_form-email-phone {
+    padding: 15px 0;
+    justify-content: space-between;
+}
+
+.register_form-text-input {
+    width: 46%;
+    height: 50px;
+    border-radius: 0;
+    margin: 15px 0;
+    border: 1px solid lightgray;
+    padding: 20px 10px 5px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 1em;
+    color: #444444;
+}
+
+.register_form-text-input-label {
+    display: block;
+    width: 30px;
+    margin-top: 17px;
+    margin-right: -75px;
+    height: 4px;
+    font-size: 0.9em;
+    color: #909090;
+    z-index: 0;
+    padding: 5px 9px;
+    box-sizing: border-box;
+
+}
+
+.register_form-text-input:focus {
+    border-color: lightgray;
+    border-left: 2px solid #6ab1fd;
+    padding-left: 9px;
+}
+
+
+/* ---fonts--- */
+@font-face {
+    font-family: Barlow-Regular;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Barlow-Regular.otf");
+}
+
+@font-face {
+    font-family: Barlow-Regular;
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/Barlow-SemiBold.otf");
+}
