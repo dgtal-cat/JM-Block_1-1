@@ -1,6 +1,15 @@
 body {
     font-family: Barlow-Regular, Arial, sans-serif;
     background-color: #edf4fe;
+    min-width: 1100px;
+}
+
+.fab, .far {
+    font-weight: 400;
+    margin-right: 24px;
+    height: 15px;
+    font-size: 1.4em;
+    margin-left: -35px;
 }
 
 .main-wrapper {
@@ -58,11 +67,13 @@ body {
 
 .slogan {
     padding: 15px 0;
-    font-size: 1.6em;
+    font-size: 1.9em;
 }
 
 .slogan-subtext {
     margin: 7px 0;
+    font-size: 1.2em;
+    color: #888888;
 }
 
 .register_form-social-buttons {
@@ -79,6 +90,7 @@ body {
     margin: 15px 0;
     cursor: pointer;
     outline: none;
+    font-size: 0.8em;
 }
 
 .social_button-facebook {
@@ -124,11 +136,11 @@ body {
 
 .register_form-text-input {
     width: 46%;
-    height: 50px;
+    height: 55px;
     border-radius: 0;
     margin: 15px 0;
     border: 1px solid lightgray;
-    padding: 20px 10px 5px;
+    padding: 25px 10px 5px;
     box-sizing: border-box;
     outline: none;
     font-size: 1em;
@@ -153,6 +165,161 @@ body {
     border-color: lightgray;
     border-left: 2px solid #6ab1fd;
     padding-left: 9px;
+}
+
+.investor-type-text {
+    font-size: 1.4em;
+    padding: 15px 0;
+}
+
+.investor-type-subtext {
+    font-size: 0.9em;
+    color: #888888;
+}
+
+.investor-type-choose-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 30px 0;
+    height: 20px;
+}
+
+.investor-type-radio {
+    margin: 0;
+}
+
+.investor-type-radio-label {
+    cursor: pointer;
+}
+
+.investor-type-radio-label-info-icon {
+    display: inline-flex;
+    height: 10px;
+    width: 10px;
+    padding: 2px;
+    margin: 0;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.investor-type-radio-label-info-icon img {
+    /*display: inline-flex;*/
+    height: 10px;
+    width: 10px;
+}
+
+.investor-type-description-block {
+    display: flex;
+    font-size: 0.87em;
+    color: #888888;
+    width: 250px;
+    padding: 12px;
+    box-shadow: 0 0 15px 0 #8080801f;
+    border-radius: 5px;
+    line-height: 1.3em;
+}
+
+input[type=radio],
+input[type=radio]:checked,
+input[type=radio]:hover,
+input[type=radio]:focus,
+input[type=radio]:disabled
+{
+    appearance: none;
+    display: none;
+}
+
+.custom-radio {
+    display: inline-flex;
+    content: "";
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #cacaca;
+    border-radius: 100%;
+    background-color: white;
+    margin-right: 6px;
+    margin-top: 2px;
+    margin-left: 1px;
+    vertical-align: text-top;
+}
+
+input[type=radio]:hover + .custom-radio {
+    border-color: #91b3d2;
+    box-shadow: 0 0 5px 2px #8080801f;
+}
+
+input[type=radio]:checked + .custom-radio {
+    width: 9px;
+    height: 9px;
+    border: 5px solid #3895f8;
+    margin-right: 4px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+#create-account-button {
+    width: 46%;
+    height: 44px;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    margin: 15px 0;
+    cursor: pointer;
+    outline: none;
+    background-color: #3895f8;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.agreement-checkbox-and-label {
+    font-size: 0.87em;
+    color: #888888;
+    margin: 40px 0;
+}
+
+a {
+    color: #68b1fd;
+}
+
+input[type=checkbox],
+input[type=checkbox]:checked,
+input[type=checkbox]:hover,
+input[type=checkbox]:focus,
+input[type=checkbox]:disabled
+{
+    appearance: none;
+    display: none;
+}
+
+.agreement-checkbox-label {
+    cursor: pointer;
+}
+
+.custom-checkbox {
+    display: inline-flex;
+    content: "";
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #cacaca;
+    border-radius: 1px;
+    background-color: white;
+    margin-right: 6px;
+    margin-top: 3px;
+    margin-left: 1px;
+    vertical-align: text-top;
+}
+
+input[type=checkbox]:hover + .custom-checkbox {
+    box-shadow: 0 0 5px 2px #8080801f;
+}
+
+input[type=checkbox]:checked + .custom-checkbox {
+    width: 10px;
+    height: 10px;
+    background-color: #3895f8;
+    border-color: #3895f8;
 }
 
 

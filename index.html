@@ -5,6 +5,7 @@
     <title>iintoo</title>
     <link rel="stylesheet" type="text/css" href="src/css/reset.css">
     <link rel="stylesheet" type="text/css" href="src/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 <body>
     <div class="main-wrapper">
@@ -22,8 +23,8 @@
             </div>
             <section class="register_block">
                 <div class="flex_block register_form-social-buttons">
-                    <input type="button" class="social_button social_button-facebook" value="Register with Facebook">
-                    <input type="button" class="social_button social_button-linkedin" value="Register with LinkedIn">
+                    <button class="social_button social_button-facebook"><i class="fab fa-facebook-f"></i>Register with Facebook</button>
+                    <button class="social_button social_button-linkedin"><i class="fab fa-linkedin-in"></i>Register with LinkedIn</button>
                 </div>
                 <div class="flex_block divider_block">
                     <span class="divider-or">OR</span>
@@ -37,11 +38,66 @@
             </section>
             <section class="investor-type">
                 <h2 class="investor-type-text">What type of investor are yoy?</h2><span
-                    class="investor-type-subtext">Selectthe type of investoryou are below</span>
-                <div class="investor-type-choose-form"></div>
-                <div class="investor-type-description-block"></div>
+                    class="investor-type-subtext">Select the type of investor you are below</span>
+                <div class="investor-type-choose-form">
+                    <div class="investor-type-check-unit">
+                        <label for="investor-type-radio-individual" class="investor-type-radio-label">
+                            <input type="radio" id="investor-type-radio-individual" name="investor-type-radio" class="investor-type-radio" value="Individual">
+                            <div class="custom-radio"></div>
+                            Individual
+                        </label>
+                        <div class="investor-type-radio-label-info-icon">
+                            <img src="src/img/information.png">
+                        </div>
+                    </div>
+                    <div>
+                    <label for="investor-type-radio-business" class="investor-type-radio-label">
+                        <input type="radio" id="investor-type-radio-business" name="investor-type-radio" class="investor-type-radio" value="Business">
+                        <div class="custom-radio"></div>
+                        Business
+                        </label>
+                    <div class="investor-type-radio-label-info-icon">
+                        <img src="src/img/information.png">
+                    </div>
+                    </div>
+                    <div>
+                    <label for="investor-type-radio-ira" class="investor-type-radio-label">
+                        <input type="radio" id="investor-type-radio-ira" name="investor-type-radio" class="investor-type-radio" value="IRA">
+                        <div class="custom-radio"></div>
+                        IRA
+                        </label>
+                    <div class="investor-type-radio-label-info-icon">
+                        <img src="src/img/information.png">
+                    </div>
+                    </div>
+                    <div>
+                    <label for="investor-type-radio-trust" class="investor-type-radio-label">
+                        <input type="radio" id="investor-type-radio-trust" name="investor-type-radio" class="investor-type-radio" value="Trust">
+                        <div class="custom-radio"></div>
+                        Trust
+                        </label>
+                    <div class="investor-type-radio-label-info-icon">
+                        <img src="src/img/information.png">
+                    </div>
+                </div>
+                </div>
+                <div class="investor-type-description-block">
+                    <span class="investor-type-description-text">
+                        I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.
+                    </span>
+                </div>
             </section>
-            <section class="agreement-and-confirm"></section>
+            <section class="agreement-and-confirm">
+                <div class="agreement-checkbox-and-label">
+                    <label for="agreement-checkbox" class="agreement-checkbox-label">
+                    <input type="checkbox" id="agreement-checkbox">
+                        <div class="custom-checkbox"></div>
+                        I agree to the terms and receiving notifications from iintoo
+                        <a href="#" class="terms-link">View full terms</a>
+                    </label>
+                </div>
+                <input type="button" id="create-account-button" value="Create Account">
+            </section>
         </div>
     </div>
 </body>
