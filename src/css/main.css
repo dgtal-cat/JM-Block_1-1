@@ -93,12 +93,24 @@ body {
     font-size: 0.9em;
 }
 
+.social_button:hover {
+
+}
+
 .social_button-facebook {
     background-color: #255A9B;
 }
 
+.social_button-facebook:hover {
+    box-shadow: 0 0 10px 0 #255a9b8a;
+}
+
 .social_button-linkedin {
     background-color: #0076B6;
+}
+
+.social_button-linkedin:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 118, 182, 0.54);
 }
 
 .divider_block {
@@ -275,6 +287,10 @@ input[type=radio]:checked + .custom-radio {
     text-align: center;
 }
 
+#create-account-button:hover {
+    box-shadow: 0 0 10px 0 rgba(54, 152, 251, 0.75);
+}
+
 .agreement-checkbox-and-label {
     font-size: 0.87em;
     color: #888888;
@@ -325,7 +341,6 @@ input[type=checkbox]:checked + .custom-checkbox {
     background-color: #3698FB;
     border-color: #3698FB;
 }
-
 
 /* ---fonts--- */
 @font-face {
