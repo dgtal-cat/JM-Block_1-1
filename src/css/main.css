@@ -1,7 +1,8 @@
 body {
     font-family: Barlow-Regular, Arial, sans-serif;
-    background-color: #edf4fe;
+    background-color: #EFF6FF;
     min-width: 1200px;
+    color: #2A4A5C;
 }
 
 .fab, .far {
@@ -93,11 +94,11 @@ body {
 }
 
 .social_button-facebook {
-    background-color: #255b9b;
+    background-color: #255A9B;
 }
 
 .social_button-linkedin {
-    background-color: #0077b6;
+    background-color: #0076B6;
 }
 
 .divider_block {
@@ -167,7 +168,6 @@ body {
 .register_form-text-input:focus {
     border-color: lightgray;
     border-left: 1px solid #6ab1fd;
-    /*padding-left: 9px;*/
 }
 
 .investor-type-text {
@@ -270,7 +270,7 @@ input[type=radio]:checked + .custom-radio {
     margin: 15px 0;
     cursor: pointer;
     outline: none;
-    background-color: #3895f8;
+    background-color: #3698FB;
     font-size: 0.9em;
     text-align: center;
 }
@@ -322,8 +322,8 @@ input[type=checkbox]:hover + .custom-checkbox {
 input[type=checkbox]:checked + .custom-checkbox {
     width: 10px;
     height: 10px;
-    background-color: #3895f8;
-    border-color: #3895f8;
+    background-color: #3698FB;
+    border-color: #3698FB;
 }
 
 
