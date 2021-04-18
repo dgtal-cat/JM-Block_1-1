@@ -341,7 +341,6 @@ input[type=checkbox]:checked + .custom-checkbox {
     background-color: #3698FB;
     border-color: #3698FB;
 }
-
 /* ---fonts--- */
 @font-face {
     font-family: Barlow-Regular;
